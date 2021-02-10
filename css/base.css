@@ -1,0 +1,674 @@
+/*All by Daisy*/
+
+ /*  Catalog  */
+/*--------------
+* Font import
+* Reset
+* Color
+* Typography
+* Icons
+* Utility
+---------------*/
+
+
+
+/*   Font import  */
+/*----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Scheherazade&display=swap');
+
+
+/*      Reset     */
+/*----------------*/
+/* Document
+ * ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+ * ========================================================================== */
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Edge, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+
+/**
+ * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
+ */
+
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl {
+  margin: 0;
+}
+
+/**
+ * Remove the margin on nested lists in Edge 18- and IE.
+ */
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Correct the inheritance of border color in Firefox.
+ * 3. Show the overflow in Edge 18- and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  color: inherit; /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 3 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Add the correct text decoration in Edge 18-, IE, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/* Embedded content
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images within links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Tabular data
+ * ========================================================================== */
+
+/**
+ * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+ * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+ */
+
+table {
+  border-color: inherit; /* 1 */
+  text-indent: 0; /* 2 */
+}
+
+/* Forms
+ * ========================================================================== */
+
+/**
+ * Remove the margin on controls in Safari.
+ */
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
+ */
+
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/**
+ * Correct the inability to style buttons in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Show the overflow in Edge 18- and IE.
+ */
+
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge 18- and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in Edge 18- and IE.
+ * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome, Edge, and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * Remove the inner padding in Chrome, Edge, and Safari on macOS.
+ */
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style upload buttons in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding of focus outlines in Firefox.
+ */
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus outline styles unset by the previous rule in Firefox.
+ */
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Remove the additional :invalid styles in Firefox.
+ */
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/* Interactive
+ * ========================================================================== */
+
+/*
+ * Add the correct display in Edge 18- and IE.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct styles in Edge 18-, IE, and Safari.
+ */
+
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* User interaction
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+*{
+	position: relative;
+	box-sizing: border-box;
+}
+
+/*     Color      */
+/*----------------*/
+
+/*background color*/
+.bgc--primary{background-color: #5d4c8c;}
+.bgc--secondary{background-color: #a898e0;}
+.bgc--darkpure{background-color: #D5C3C9;}
+.bgc--pure{background-color: #fee9d6;}
+.bgc--black{background-color: #000;}
+.bgc--grey{background-color: #ccc; }
+.bgc--white{background-color: #fff;}
+.bgc--li-white{background-color: rgba(256,256,256,0.3);}
+
+
+/*text color*/
+.color--primary{color: #5d4c8c;}
+.color--secondary{color: #a898e0;}
+.color--darkpure{color: #D5C3C9;}
+.color--pure{color: #fee9d6;}
+.color--black{color: #000;}
+.color--grey{color: #ccc; }
+.color--white{color: #fff;}
+
+
+/*   Typography   */
+/*----------------*/
+
+/*All*/
+body,html{
+	font-family: 'Raleway', sans-serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+}
+
+/*Heading*/
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	color: #484848;
+}
+h1{
+	font-size: 80px;
+	font-weight: 600;
+	font-family: 'Scheherazade', serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h2{
+	font-size: 48px;
+	font-weight: 600;
+	font-family: 'Scheherazade', serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h3{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
+	font-family: 'Scheherazade', serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h4{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 38px;
+	font-family: 'Raleway', sans-serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h5{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	font-family: 'Raleway', sans-serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+h6{
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	font-family: '微軟正黑體','Scheherazade', serif, 'helvetica', 'roboto', arial, sans-serif;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+p{
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 24px;
+	font-family: 'Raleway', sans-serif, 'helvetica', 'roboto', arial, sans-serif, 微軟正黑體;
+	margin-bottom: 16px;
+	letter-spacing: 1px;
+}
+.subtitle{
+	font-weight: 600;
+	font-size: 36px;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	margin-bottom: 24px;
+}
+
+/*Link*/
+a{
+	text-decoration: none;
+	color: #a898e0;
+}
+a:hover,
+a:active,
+a:focous{
+	text-decoration: none;
+	color: #a898e0;
+}
+
+}
+/*List*/
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+/*     Icons      */
+/*----------------*/
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?34404786');
+  src: url('../font/fontello.eot?34404786#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?34404786') format('woff2'),
+       url('../font/fontello.woff?34404786') format('woff'),
+       url('../font/fontello.ttf?34404786') format('truetype'),
+       url('../font/fontello.svg?34404786#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?34404786#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-phone-circled:before { content: '\e801'; } /* '' */
+.icon-emo-wink:before { content: '\e802'; } /* '' */
+.icon-thumbs-up:before { content: '\e803'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-wechat:before { content: '\f1d7'; } /* '' */
+.icon-copyright:before { content: '\f1f9'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */
+
+/*     Utility    */
+/*----------------*/
+
+.u-push-right{float: right;}
+.u-pull-left{float: left;}
+.u-text-center{text-align: center;}
+.u-text-right{text-align: right;}
+.u-text-lift{text-align: left;}
+
+@media (max-width: 768px){
+  .u-xs-hidden{
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+

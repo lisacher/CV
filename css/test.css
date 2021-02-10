@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+
+.aaa{
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Hanalei', cursive;
+  margin-bottom: 16px;
+  letter-spacing: 10px;
+}
